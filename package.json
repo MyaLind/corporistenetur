@@ -1,0 +1,51 @@
+{
+  "name": "corporistenetur",
+  "version": "1.0.0",
+  "description": "List of JavaScript types",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MyaLind/corporistenetur.git"
+  },
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "author": "AdrianaGottlieb",
+  "exports": {
+    "types": "./index.d.ts",
+    "default": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "xo && ava && tsc index.d.ts"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "js-types.json"
+  ],
+  "keywords": [
+    "js",
+    "qui",
+    "dignissimos",
+    "in",
+    "unde",
+    "aperiam",
+    "data",
+    "list",
+    "array",
+    "json"
+  ],
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "typescript": "^5.2.2",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "rules": {
+      "import/extensions": "off",
+      "unicorn/import-index": "off"
+    }
+  },
+  "homepage": "https://github.com/MyaLind/corporistenetur.git"
+}
